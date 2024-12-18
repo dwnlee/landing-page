@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/*
+.section-one {
+  background-color: #1f2937;
+}
+*/
+
+/* section 1 */
+
+body {
+  margin: 0;
+}
+
+.section-one {
+  background-color: #1f2937;
+  padding-bottom: 130px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: 70px;
+}
+
+.logo {
+  margin-left: 200px;
+
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.links {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+
+  margin-right: 200px;
+
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* .hero-text * {
+  border: 1px solid red;
+} */
+
+.hero-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900px;
+
+  margin-bottom: 0;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* 130 x 40 */
+.hero-text button {
+  height: 40px;
+  width: 130px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+}
+
+.left {
+  margin-left: 200px;
+  width: 520px;
+}
+
+.right {
+  margin-right: 200px;
+  /* min-width: 400px; */
+}
+
+/* 520 x 240 */
+.image-placeholder {
+  height: 240px;
+  width: 520px;
+  color: #f9faf8;
+  background-color: #6C747D;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* section 2 */
+.section-two {
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-two h2 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900px;
+}
+
+.info p {
+  font-size: 18px;
+  color: grey;
+}
+
+/* 170 x 170 */
+.illustration-placeholder {
+  height: 170px;
+  width: 170px;
+  color: black;
+  border: 3px solid #3A80F6;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .info p { 
+  max-height: 170px;
+  max-width: 170px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 50px;
+
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/* .section-two .container * {
+  border: 1px solid red;
+} */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* section 3 */
+.section-three {
+  /* margin-left: 200px;
+  margin-right: 200px; */
+  /* padding-left: 200px;
+  padding-right: 200px; */
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 100px 300px 100px 300px;
+  background-color: #e5e7eb;
+}
+
+.section-three .quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.section-three .who-said {
+  margin-top: 0;
+  text-align: end;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* section 4 */
+.section-four {
+  /* margin-left: 200px;
+  margin-right: 200px; */
+  
+  /* top and bottom | left and right */
+  margin: 100px 200px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .section-four .action-container * {
+  border: 1px solid red;
+} */
+
+/* 150 x 1025 */
+.action-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 150px;
+  width: 1025px;
+  background-color: #3882f6;
+  color: #f9f4f8;
+  border-radius: 10px;
+}
+
+.action-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.action-subtitle {
+  margin-top: 5px;
+}
+
+.action-right button {
+  /* height: 40px;
+  width: 130px;
+  font-weight: 18px;
+  border-color: #f9f4f8;
+  
+  border-radius: 8px; */
+  height: 40px;
+  width: 130px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  border-color: #f9f4f8;
+  border-style: solid;
+  /* border: none; */
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #1f2937;
+
+  padding: 20px 200px;
+}
+
+footer p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
